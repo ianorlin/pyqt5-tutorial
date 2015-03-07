@@ -26,7 +26,7 @@ Determining whether the RadioButton is active or not is done by::
 
   checked = radiobutton.isChecked()
 
-By default, all RadioButton widgets within the window will be assigned to the same group. This will cause problems if there are multiple batches of buttons which have different intents. To resolve this issue, read about the :doc:`ButtonGroup` object.
+By default, all RadioButton widgets within the window will be assigned to the same group. This will cause problems if there are multiple batches of buttons which have different intents. To resolve this issue, read about the :doc:`buttongroup` object.
 
 =======
 Example

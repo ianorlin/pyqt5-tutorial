@@ -8,9 +8,15 @@ Contents:
 .. toctree::
    :titlesonly:
 
+   introduction
    label
    pushbutton
    radiobutton
+   checkbox
+   lineedit
    buttongroup
    slider
+   calendar
    listwidget
+   plaintextedit
+   textedit
