@@ -13,10 +13,16 @@ Contents:
    pushbutton
    radiobutton
    checkbox
+   tooltip
    lineedit
    buttongroup
    slider
+   dial
+   spinbox
+   toolbar
+   toolbox
    calendar
+   dialog
    listwidget
    plaintextedit
    textedit

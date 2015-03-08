@@ -28,6 +28,12 @@ To check whether a button has been set to flat or not, call::
 
   flat = pushbutton.isFlat()
 
+Button widgets can also be used to display a dropdown menu rather than simply being clickable. The menu is associated using::
+
+  pusbutton.setMenu(menu)
+
+The *menu* parameter should be set to the name of a :doc:`menu` widget.
+
 =======
 Signals
 =======
