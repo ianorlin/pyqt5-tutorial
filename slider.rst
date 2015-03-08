@@ -29,11 +29,11 @@ A value can be set onto the Slider using::
 
   slider.setValue(value)
 
-The Slider emits a signal that the value has changed whenever the user stops sliding and releases the mouse. In some cases, the requirement may be to emit a changed signal whenever the slider moves. This can be done with::
+The Slider emits a signal that the value has changed whenever the user stops sliding and releases the mouse. In some cases, the requirement may be to emit a changed signal whenever the Slider moves. This can be done with::
 
   slider.setTracking(tracking)
 
-If *tracking* is set to ``True``, the slider will update on move.
+If *tracking* is set to ``True``, the Slider will call the associated update function repeatedly when moving.
 
 =======
 Example

@@ -10,12 +10,9 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)
 
-        self.lineedit = QLineEdit()
-        self.lineedit.returnPressed.connect(self.return_pressed)
-        layout.addWidget(self.lineedit, 0, 0)
-
-    def return_pressed(self):
-        print(self.lineedit.text())
+        button = QPushButton("PushButton")
+        button.setToolTip("ToolTip for a PushButton")
+        layout.addWidget(button, 0, 0)
 
 app = QApplication(sys.argv)
 

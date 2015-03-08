@@ -31,6 +31,17 @@ The default setting of the LineEdit is to allow 32767 characters to be entered i
   lineedit.setMaxLength(length)
 
 =======
+Signals
+=======
+If the user pressed the :kbd:`Enter` or :kbd:`Return` buttons after editing the text, the LineEdit can be made to run a function::
+
+  lineedit.returnPressed.connect(return_pressed_function)
+
+Alternatively, it may be useful to run on a function after each change made::
+
+  lineedit.textChanged.connect(text_changed_function)
+
+=======
 Example
 =======
 Below is an example of an LineEdit:

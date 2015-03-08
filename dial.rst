@@ -1,5 +1,6 @@
 Dial
 ====
+The Dial widget provides a :doc:`range` object which takes the form of a control knob. Its design is similar to a volume knob on a music system.
 
 ===========
 Constructor

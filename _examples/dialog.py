@@ -3,20 +3,22 @@
 from PyQt5.QtWidgets import *
 import sys
 
-class Window(QWidget):
+class Dialog(QWidget):
     def __init__(self):
-        QWidget.__init__(self)
-        self.setWindowTitle("Hello")
+        super(Dialog, self).__init__()
 
         layout = QGridLayout()
         self.setLayout(layout)
 
-        label = QLabel("Hello, World!")
+        label = QLabel("This is a dialog.")
         layout.addWidget(label, 0, 0)
+
+        buttonbox = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        layout.addWidget(buttonbox)
 
 app = QApplication(sys.argv)
 
-screen = Window()
+screen = Dialog()
 screen.show()
 
 sys.exit(app.exec_())
