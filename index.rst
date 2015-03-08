@@ -9,6 +9,7 @@ Contents:
    :titlesonly:
 
    introduction
+   helloworld
    label
    pushbutton
    radiobutton
