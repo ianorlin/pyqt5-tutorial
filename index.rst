@@ -22,6 +22,7 @@ Contents:
    spinbox
    toolbar
    toolbox
+   combobox
    calendar
    dialog
    listwidget
