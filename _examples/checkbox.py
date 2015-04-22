@@ -24,12 +24,18 @@ class Window(QWidget):
         layout.addWidget(self.checkbox3, 2, 0)
 
     def checkbox_toggled(self):
+        selected = []
+        
         if self.checkbox1.isChecked():
-            print("Kestrel")
-        elif self.checkbox2.isChecked():
-            print("Sparrowhawk")
-        elif self.checkbox3.isChecked():
-            print("Hobby")
+            selected.append("Kestrel")
+            
+        if self.checkbox2.isChecked():
+            selected.append("Sparrowhawk")
+            
+        if self.checkbox3.isChecked():
+            selected.append("Hobby")
+        
+        print("Selected: %s" % (" ".join(selected)))
 
 app = QApplication(sys.argv)
 
