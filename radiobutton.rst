@@ -14,7 +14,7 @@ Methods
 =======
 Text can be changed within the RadioButton via::
 
-  radiobutton.setLabel(text)
+  radiobutton.setLabel(label)
 
 To set a RadioButton to be checked, use::
 
