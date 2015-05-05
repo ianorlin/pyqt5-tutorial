@@ -23,6 +23,7 @@ Contents:
    slider
    dial
    spinbox
+   doublespinbox
    toolbar
    toolbox
    menubar

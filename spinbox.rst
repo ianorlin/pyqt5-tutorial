@@ -2,6 +2,13 @@ SpinBox
 =======
 The SpinBox widget provides a way to enter numbers. Thw widget provides integrated adjustment buttons which allow the user to adjust the number by clicking the arrows, while also allowing adjustment by typing into a text entry.
 
+===========
+Constructor
+===========
+The SpinBox is constructed with the call::
+
+  spinbox = QSpinBox()
+
 =======
 Methods
 =======
