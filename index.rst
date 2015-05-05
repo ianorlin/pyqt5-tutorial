@@ -11,6 +11,7 @@ Contents:
    introduction
    window
    helloworld
+   gridlayout
    label
    pushbutton
    radiobutton
