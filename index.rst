@@ -9,6 +9,7 @@ Contents:
    :titlesonly:
 
    introduction
+   window
    helloworld
    label
    pushbutton
@@ -17,11 +18,14 @@ Contents:
    tooltip
    lineedit
    buttongroup
+   splitter
    slider
    dial
    spinbox
    toolbar
    toolbox
+   menubar
+   tabwidget
    combobox
    calendar
    dialog
