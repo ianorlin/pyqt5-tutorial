@@ -18,6 +18,7 @@ Contents:
    tooltip
    lineedit
    buttongroup
+   groupbox
    splitter
    slider
    dial
